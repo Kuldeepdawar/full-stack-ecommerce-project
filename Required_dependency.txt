@@ -2,3 +2,19 @@
 npm i react-router-dom 
 2. this is for message and we can show message 
 npm i react-toastify
+3. Client gave me all products in assets folders and now this is import pics and I can get all pis 
+{asset.logo}....
+I have creted for client website data like 
+export const products = [
+    {
+        _id: "aaaaa",
+        name: "Women Round Neck Cotton Top",
+        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        price: 100,
+        image: [p_img1],
+        category: "Women",
+        subCategory: "Topwear",
+        sizes: ["S", "M", "L"],
+        date: 1716634345448,
+        bestseller: true // if this is true then show in bestseller otherwise in all products
+    },
