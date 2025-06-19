@@ -1,0 +1,4 @@
+1. For routing in react project and we can get different-2 pages 
+npm i react-router-dom 
+2. this is for message and we can show message 
+npm i react-toastify
